@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.title{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.subtitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.markdown {
+  width: 100%;
+  height: 100vh;
+  background-color: #ecf0f1;
+}
+
+.preview {
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
 }
